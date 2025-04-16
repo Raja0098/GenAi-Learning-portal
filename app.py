@@ -126,7 +126,7 @@ class YTSummary(Resource):
 
         if full_srt:
 
-            api_key = "AIzaSyByHZtQ1cLVH8lGVuJzeIZAuSaMuIsqffg"
+            api_key = "Your-API-Key-Here"
             url = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key="+api_key
 
             headers = {
@@ -158,7 +158,7 @@ class Chat(Resource):
         #print(chat_history)
         if chat_history:
 
-            api_key = "AIzaSyCBeDfXMLy7v9xIfs5oDzYjueW8o54XYCA"
+            api_key = "Your-API-Key-Here"
             url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="+api_key
 
             headers = {
